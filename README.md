@@ -10,16 +10,16 @@ Ce projet contient un programme conçu pour analyser une protéine fournie sous 
 
 CLoner le dépôt:
 
-git clone https://github.com/ruthelphor/Projet-TM_Detection.git
+    git clone https://github.com/ruthelphor/Projet-TM_Detection.git
 
 Déplacez-vous dans le nouveau répertoire :
 
-cd Projet_TMDET_reprograming
+    cd Projet_TMDET_reprograming
 
 ## Prérequis
 
-    Conda (ou Miniconda/Anaconda) pour la gestion des environnements.
-    Un fichier PDB de la protéine que vous souhaitez analyser.
+Conda (ou Miniconda/Anaconda) pour la gestion des environnements.
+Un fichier PDB de la protéine que vous souhaitez analyser.
 
 ## Installation de l'Environnement Conda
 
@@ -27,65 +27,66 @@ Pour installer et configurer l'environnement Conda nécessaire pour exécuter ce
 
 ## Étapes d'installation de l'environnement :
 
-    Téléchargez le projet et placez-le dans un répertoire de travail.
+  Téléchargez le projet et placez-le dans un répertoire de travail.
 
-    Ouvrez un terminal et naviguez vers le répertoire du projet.
+  Ouvrez un terminal et naviguez vers le répertoire du projet.
 
-    Exécutez la commande suivante pour créer l'environnement Conda à partir du fichier environment.yml :
+  Exécutez la commande suivante pour créer l'environnement Conda à partir du fichier environment.yml :
 
-    conda env create -f environment.yml
+      conda env create -f environment.yml
 
 ## Activation d l'environnement conda
+
     conda activate Projet_TMP
 
 ## Utilisation
 
-    Une fois dans le répertoire du projet, déplacer-vous vers le sous-répertoire src
+ Une fois dans le répertoire du projet, déplacer-vous vers le sous-répertoire src
 
         cd src/bin/
 
-    Pour exécuter le programme, utiliser la commande suivante:
+ Pour exécuter le programme, utiliser la commande suivante:
 
        python3 main.py <chemin_vers_fichier_PDB> -v
 
-        <chemin_vers_fichier_PDB> : Le chemin vers le fichier PDB de la protéine que vous souhaitez analyser.
+  <chemin_vers_fichier_PDB> : Le chemin vers le fichier PDB de la protéine que vous souhaitez analyser.
 
 
-        -v : (Optionnel) Activez ce drapeau pour exécuter le programme en mode "verbose" et afficher les étapes détaillées de l'exécution.
+  -v : (Optionnel) Activez ce drapeau pour exécuter le programme en mode "verbose" et afficher les étapes détaillées de l'exécution.
 
-    Pour avoir de l'aide, éventuellement à l'utilisation du programme, utiliser la commande
+   Pour avoir de l'aide, éventuellement à l'utilisation du programme, utiliser la commande
 
         python3 main.py -h
 
-         ou
+   ou
 
         python3 main.py <chemin_vers_fichier_PDB> -h
 
 ## Exemple d'exécution
 
-    Voici un exemple d'exécution typique avec tous les paramètres fournis :
+   Voici un exemple d'exécution typique avec tous les paramètres fournis :
 
         python3 main.py /home/etudiant/Projet_TMDET_reprograming/data/2k8j.pdb -o results/protein_with_memb.png -v
 
-    Dans cet exemple :
+   Dans cet exemple :
 
-        - Le fichier PDB 2k8j.pdb est analysé.
-        - Le fichier d'image PNG sera sauvegardé dans le répertoire results/ avec le nom protein_with_memb.png.
-        - Le mode "verbose" affichera les détails des étapes dans le terminal.
+   - Le fichier PDB 2k8j.pdb est analysé.
+   - Le fichier d'image PNG sera sauvegardé dans le répertoire results/ avec le nom protein_with_memb.png.
+   - Le mode "verbose" affichera les détails des étapes dans le terminal.
 
 ## Structure des fichiers
 
-    Voici un aperçu des fichiers clés du projet :
+   Voici un aperçu des fichiers clés du projet :
 
-    main.py : Script principal qui orchestre l'exécution complète de l'analyse (lecture du fichier PDB, extraction des Cα, calcul des plans membranaires, génération des fichiers de sortie).
+   main.py : Script principal qui orchestre l'exécution complète de l'analyse (lecture du fichier PDB, extraction des Cα, calcul des plans membranaires, génération des fichiers de sortie).
 
-    extract_ca_accessible.py : Extraction des carbones alpha accessibles au solvant.
+   extract_ca_accessible.py : Extraction des carbones alpha accessibles au solvant.
 
-    center_protein.py : Calcul du centre de masse et centrage des coordonnées de la protéine.
+   center_protein.py : Calcul du centre de masse et centrage des coordonnées de la protéine.
 
-    detect_segments.py : Calcul des segments transmembranaires et génération des fichiers de sortie (PNG et PDB).
+   detect_segments.py : Calcul des segments transmembranaires et génération des fichiers de sortie (PNG et PDB).
 
-    environment.yml : Fichier de configuration pour créer l'environnement Conda requis.
+   environment.yml : Fichier de configuration pour créer l'environnement Conda requis.
 
 
         
