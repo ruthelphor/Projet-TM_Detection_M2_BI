@@ -1,12 +1,12 @@
-### Projet de Détection des Segments Transmembranaires (TMDET)
+# Projet de Détection des Segments Transmembranaires (TMDET)
 
-# Auteur : Bonou Yves YAMADJAKO
+## Auteur : Bonou Yves YAMADJAKO
 
-# Description
+## Description
 
 Ce projet contient un programme conçu pour analyser une protéine fournie sous forme de fichier PDB et identifier les segments transmembranaires. Le programme est une reprogrammation de l'algorithme TMDET pour assigner et détecter les segments transmembranaires, en se basant sur les résidus hydrophobes et les informations structurelles de la protéine (Surface accessible au solvant, hydrophobicité et atomes de carbones alpha). Il génère des fichiers PDB et PNG montrant la structure de la protéine et sa relation avec les plans membranaires.
 
-# Configurer votre environnement
+## Configurer votre environnement
 
 CLoner le dépôt:
 
@@ -16,16 +16,16 @@ Déplacez-vous dans le nouveau répertoire :
 
 cd Projet_TMDET_reprograming
 
-# Prérequis
+## Prérequis
 
     Conda (ou Miniconda/Anaconda) pour la gestion des environnements.
     Un fichier PDB de la protéine que vous souhaitez analyser.
 
-# Installation de l'Environnement Conda
+## Installation de l'Environnement Conda
 
 Pour installer et configurer l'environnement Conda nécessaire pour exécuter ce projet, utiliser le fichier environment.yml fourni avec ce projet.
 
-# Étapes d'installation de l'environnement :
+## Étapes d'installation de l'environnement :
 
     Téléchargez le projet et placez-le dans un répertoire de travail.
 
@@ -35,10 +35,10 @@ Pour installer et configurer l'environnement Conda nécessaire pour exécuter ce
 
     conda env create -f environment.yml
 
-# Activation d l'environnement conda
+## Activation d l'environnement conda
     conda activate Projet_TMP
 
-# Utilisation
+## Utilisation
 
     Une fois dans le répertoire du projet, déplacer-vous vers le sous-répertoire src
 
@@ -61,7 +61,7 @@ Pour installer et configurer l'environnement Conda nécessaire pour exécuter ce
 
         python3 main.py <chemin_vers_fichier_PDB> -h
 
-# Exemple d'exécution
+## Exemple d'exécution
 
     Voici un exemple d'exécution typique avec tous les paramètres fournis :
 
@@ -73,7 +73,7 @@ Pour installer et configurer l'environnement Conda nécessaire pour exécuter ce
         - Le fichier d'image PNG sera sauvegardé dans le répertoire results/ avec le nom protein_with_memb.png.
         - Le mode "verbose" affichera les détails des étapes dans le terminal.
 
-# Structure des fichiers
+## Structure des fichiers
 
     Voici un aperçu des fichiers clés du projet :
 
