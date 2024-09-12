@@ -1,0 +1,202 @@
+Name : p7 Protein
+code PDB : 2K8J
+
+Type : Transmembrane
+Class : Alpha-helical polytopic
+Superfamily : Polytopic viroporins
+Family : P7 viroporin
+Species : Hepatitis C virus
+Localization : Endoplasmic reticulum membrane
+
+Chains : A
+Length : 29
+
+Method : Solution NMR
+Conformers Calculated : 50
+Conformers Submitted : 30
+
+Mutations : No
+
+################################################################################
+
+Name : Integrin alpha-IIb
+code PDB : 2K1A
+
+Type : Transmembrane
+Class : Bitopic proteins
+Superfamily : Integrin
+Family : Integrin
+Species : Homo sapiens
+Localization : Eukaryotic plasma membrane
+
+Chains : A
+Length : 42
+
+Method : Solution NMR
+Conformers Calculated : 21 
+Conformers Submitted : 21 
+
+Mutations : No
+
+################################################################################
+
+Name : Schistocin-1 antimicrobial peptide
+code PDB : 7M67
+
+Type : Peptide
+Class : Alpha-helical peptides
+Superfamily : Designed alpha_helical peptides
+Family : Basic amphiphilic peptides
+Species : Schistosoma mansoni
+Localization : Secreted
+
+Chains : A
+Length : 21
+
+Method : Solution NMR
+Conformers Calculated : 40 
+Conformers Submitted : 10
+
+Mutations : Amidation 21st amino acid
+##############################################################################
+Name : HIG1 domain family member 1B
+code PDB : 2LON
+
+Type : Transmembrane
+Class : Alpha-helical polytopic
+Superfamily : Hypoxia induced protein
+Family : Hypoxia induced protein
+Species : Homo sapiens
+Localization : Mitochondrial inner membrane
+
+Chains : A
+Length : 99
+
+Method : SOlution NMR
+Conformers Calculated: 200 
+Conformers Submitted: 20 
+
+Mutations : No
+
+##############################################################################
+Name : Toll-like receptor 3, TM and juxtamembrane regions
+code PDB : 8AR1
+
+Type : Transmembrane
+Class : Bitopic proteins
+Superfamily : Leucine rich repeat-containing transmembrane proteins
+Family : Toll-like receptors
+Species : Homo sapiens
+Localization : Endosome memebrane
+
+Chains : A
+Length : 50
+
+Method: SOLUTION NMR
+Conformers Calculated: 100 
+Conformers Submitted: 10 
+
+Mutations : No
+
+##############################################################################
+Name :  Integrin beta-2, transmembrane helix
+code PDB : 5ZAZ
+
+Type : Transmembrane
+Class : Bitopic proteins
+Superfamily : Integrin
+Family : Integrin
+Species : Homo sapiens
+Localization : Eukaryotic plasma membrane
+
+Chains : A
+Length : 52
+
+Method: SOLUTION NMR
+Conformers Calculated: 100 
+Conformers Submitted: 20 
+
+Mutations : 1
+
+##############################################################################
+Name : NADPH oxidase 5
+code PDB : 5o0T
+
+Type : Transmembrane
+Class : Alpha-helical polytopic
+Superfamily : Electron transport chain complex II superfamily
+Family :  NADPH oxidase 
+Species : Cylindrospermum stagnale
+Localization :  Bacterial Gram-negative inner membrane 
+
+Chains : A
+Length : 206
+
+Method: X-RAY DIFFRACTION
+Resolution: 2.05 Å
+
+Mutations : Yes
+
+##############################################################################
+Name : Toll-like receptor 4 (628-669)
+code PDB : 5NAM
+
+Type : Transmembrane
+Class : Bitopic proteins
+Superfamily :  Leucine rich repeat-containing transmembrane proteins
+Family :  Toll-like receptors 
+Species : Homo sapiens
+Localization : Eukaryotic plasma membrane
+
+Chains : A
+Length : 48
+
+Method: SOLUTION NMR
+Conformers Calculated: 100 
+Conformers Submitted: 10 
+
+Mutations : No
+
+##############################################################################
+Name : Tumor necrosis factor
+code PDB : 7ASY
+
+Type : Transmembrane
+Class : Bitopic proteins
+Superfamily : C1q and TNF superfamily
+Family : Tumour necrosis factor
+Species : Mus musculus 
+Localization : Eukaryotic plasma membrane
+
+Chain : A
+Length : 33
+Method: SOLUTION NMR
+Conformers Calculated: 200 
+Conformers Submitted: 20
+
+Mutations : No
+
+################################################################################
+
+Name : Activator of apoptosis harakiri, transmembrane helix
+code PDB : 2L5B
+
+Type : Transmembrabe
+Class : Bitopic proteins
+Superfamily : Bcl-2 inhibitors of programmed cell death
+Family :  Bcl-2 inhibitors of programmed cell death
+Species : Homo sapiens
+Localization : Mitochondrial outer membrane
+
+Chains : A, C
+Length : 141
+Chains : B, D
+Length : 146
+
+Method: SOLUTION NMR
+Conformers Calculated: 200 
+Conformers Submitted: 20 
+
+Mutations : Yes
+
+

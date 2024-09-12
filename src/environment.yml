@@ -1,0 +1,14 @@
+name: Projet_TMP
+channels:
+  - conda-forge
+  - defaults
+  - salilab
+  - schrodinger
+dependencies:
+  - biopython
+  - dssp
+  - numpy
+  - python
+  - pandas
+  - matplotlib
+  - pymol
