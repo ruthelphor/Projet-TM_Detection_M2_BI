@@ -10,7 +10,7 @@ Ce projet contient un programme conçu pour analyser une protéine fournie sous 
 
 CLoner le dépôt:
 
-git clone https://github.com/CNOV0/Projet_Management.git
+git clone https://github.com/ruthelphor/Projet-TM_Detection.git
 
 Déplacez-vous dans le nouveau répertoire :
 
