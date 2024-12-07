@@ -1,6 +1,6 @@
 # Projet de Détection des Segments Transmembranaires (TMDET)
 
-## Auteur : Bonou Yves YAMADJAKO
+## Auteur : Yves YAMADJAKO
 
 ## Description
 
