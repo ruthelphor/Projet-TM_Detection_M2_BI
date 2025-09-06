@@ -4,7 +4,7 @@
 
 ## Description
 
-Ce projet contient un programme conçu pour analyser une protéine fournie sous forme de fichier PDB et identifier les segments transmembranaires. Le programme est une reprogrammation de l'algorithme TMDET pour assigner et détecter les segments transmembranaires, en se basant sur les résidus hydrophobes et les informations structurelles de la protéine (Surface accessible au solvant, hydrophobicité et atomes de carbones alpha). Il génère des fichiers PDB et PNG montrant la structure de la protéine et sa relation avec les plans membranaires.
+Ce projet contient un programme conçu pour analyser une protéine fournie sous forme de fichier PDB et identifier les segments transmembranaires. Il est une reprogrammation de l'algorithme TMDET dans la littérature, pour assigner et détecter les segments transmembranaires, en se basant sur les résidus hydrophobes et les informations structurelles de la protéine (Surface accessible au solvant, hydrophobicité et les carbones alpha). L'outil génère des fichiers PDB et PNG montrant la structure de la protéine et sa relation avec les plans membranaires.
 
 ## Configurer votre environnement
 
